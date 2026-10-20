@@ -1,0 +1,120 @@
+
+
+Report
+======
+841 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |12     |12         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |5      |5          |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |17     |17         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |81     |81         |=          |100.00      |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    PIL 
+      \-Image (test_video_datasets)
+    cv2 (test_utils,utils)
+    evaluate (run,test_evaluate)
+    models (run,test_models)
+    numpy (run,test_utils,test_video_datasets,utils,video_datasets)
+    pytest (test_evaluate,test_models,test_train,test_utils,test_video_datasets)
+    sklearn 
+      \-metrics (evaluate)
+    torch (evaluate,models,run,test_evaluate,test_models,test_train,test_utils,test_video_datasets,train,utils,video_datasets)
+      \-nn (models,run,test_evaluate,test_train)
+      | \-functional (evaluate)
+      \-optim (train)
+      | \-lr_scheduler (train)
+      \-utils 
+        \-data (test_evaluate,test_train,utils,video_datasets)
+    torchvision 
+      \-io (video_datasets)
+      \-models (models,test_models)
+      | \-video (models,test_models)
+      \-transforms 
+      | \-v2 (utils)
+      \-tv_tensors (test_utils,video_datasets)
+    tqdm (evaluate,prepare_data,train)
+    train (run,test_train)
+    utils (prepare_data,run,test_utils)
+    video_datasets (prepare_data,run,test_video_datasets,utils)
+    wandb (run)
+
+
+
+2165 lines have been analyzed
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |986    |45.54 |986      |=          |
++----------+-------+------+---------+-----------+
+|docstring |913    |42.17 |913      |=          |
++----------+-------+------+---------+-----------+
+|comment   |23     |1.06  |23       |=          |
++----------+-------+------+---------+-----------+
+|empty     |243    |11.22 |243      |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |0      |0        |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+
+
+
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

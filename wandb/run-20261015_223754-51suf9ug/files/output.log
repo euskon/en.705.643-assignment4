@@ -1,0 +1,164 @@
+                                                                 
+Epoch 1/25 | lr 1.00e-03 | train loss 3.4253 acc 18.13% | val loss 3.8473 acc 20.17% *best*
+Epoch 2/25 | lr 9.96e-04 | train loss 3.1300 acc 25.06% | val loss 2.6336 acc 41.58% *best*
+Epoch 3/25 | lr 9.83e-04 | train loss 2.7302 acc 35.91% | val loss 2.5752 acc 51.49% *best*
+Epoch 4/25 | lr 9.62e-04 | train loss 2.4234 acc 45.64% | val loss 2.2969 acc 49.88%
+Epoch 5/25 | lr 9.33e-04 | train loss 2.1617 acc 53.58% | val loss 2.3218 acc 56.44% *best*
+Epoch 6/25 | lr 8.97e-04 | train loss 1.9819 acc 60.15% | val loss 2.1147 acc 61.39% *best*
+Epoch 7/25 | lr 8.54e-04 | train loss 1.8151 acc 65.85% | val loss 2.0408 acc 64.98% *best*
+Epoch 8/25 | lr 8.04e-04 | train loss 1.6496 acc 72.61% | val loss 1.8672 acc 67.70% *best*
+Epoch 9/25 | lr 7.50e-04 | train loss 1.5334 acc 76.49% | val loss 1.8559 acc 68.44% *best*
+Epoch 10/25 | lr 6.91e-04 | train loss 1.4182 acc 81.03% | val loss 1.8423 acc 68.56% *best*
+Epoch 11/25 | lr 6.29e-04 | train loss 1.3223 acc 84.53% | val loss 1.7175 acc 71.91% *best*
+Epoch 12/25 | lr 5.65e-04 | train loss 1.2277 acc 88.19% | val loss 1.6414 acc 73.76% *best*
+Epoch 13/25 | lr 5.00e-04 | train loss 1.1721 acc 90.08% | val loss 1.6396 acc 74.63% *best*
+Epoch 14/25 | lr 4.35e-04 | train loss 1.1296 acc 91.83% | val loss 1.5927 acc 77.10% *best*
+Epoch 15/25 | lr 3.71e-04 | train loss 1.0742 acc 93.30% | val loss 1.6182 acc 75.37%
+Epoch 16/25 | lr 3.09e-04 | train loss 1.0372 acc 94.77% | val loss 1.5843 acc 76.61%
+Epoch 17/25 | lr 2.50e-04 | train loss 0.9978 acc 95.73% | val loss 1.5560 acc 78.09% *best*
+Epoch 18/25 | lr 1.96e-04 | train loss 0.9671 acc 96.98% | val loss 1.5185 acc 79.33% *best*
+Epoch 19/25 | lr 1.46e-04 | train loss 0.9431 acc 97.32% | val loss 1.4852 acc 80.07% *best*
+Epoch 20/25 | lr 1.03e-04 | train loss 0.9231 acc 98.03% | val loss 1.5440 acc 77.60%
+Epoch 21/25 | lr 6.70e-05 | train loss 0.9117 acc 98.28% | val loss 1.5381 acc 78.47%
+Epoch 22/25 | lr 3.81e-05 | train loss 0.8968 acc 98.79% | val loss 1.5228 acc 78.71%
+Epoch 23/25 | lr 1.70e-05 | train loss 0.8874 acc 98.81% | val loss 1.5216 acc 78.71%
+Epoch 24/25 | lr 4.28e-06 | train loss 0.8948 acc 98.70% | val loss 1.5195 acc 77.72%
+Epoch 25/25 | lr 0.00e+00 | train loss 0.8913 acc 98.70% | val loss 1.5176 acc 78.09%
+[test] 1 view(s) | accuracy 73.91% | loss 1.0584 | n=1081
+                    precision    recall  f1-score   support
+
+     BaseballPitch      0.947     0.900     0.923        20
+        Basketball      0.412     0.350     0.378        20
+        BenchPress      0.897     1.000     0.945        26
+            Biking      0.656     0.724     0.689        29
+         Billiards      1.000     0.833     0.909        24
+      BreastStroke      0.727     1.000     0.842        16
+      CleanAndJerk      0.750     1.000     0.857        21
+            Diving      1.000     0.769     0.870        26
+          Drumming      0.897     0.963     0.929        27
+           Fencing      0.655     1.000     0.792        19
+         GolfSwing      0.667     1.000     0.800        26
+          HighJump      0.857     0.571     0.686        21
+         HorseRace      0.833     1.000     0.909        20
+       HorseRiding      0.737     0.933     0.824        30
+          HulaHoop      0.520     0.619     0.565        21
+      JavelinThrow      0.519     0.700     0.596        20
+     JugglingBalls      0.778     0.737     0.757        19
+          JumpRope      0.615     0.333     0.432        24
+       JumpingJack      1.000     0.444     0.615        18
+          Kayaking      0.933     0.933     0.933        30
+            Lunges      0.286     0.095     0.143        21
+    MilitaryParade      0.941     0.889     0.914        18
+            Mixing      0.587     1.000     0.740        27
+         Nunchucks      0.727     0.421     0.533        19
+      PizzaTossing      0.190     0.235     0.211        17
+     PlayingGuitar      1.000     0.846     0.917        26
+      PlayingPiano      0.941     1.000     0.970        16
+      PlayingTabla      0.882     0.882     0.882        17
+     PlayingViolin      0.619     0.812     0.703        16
+         PoleVault      0.545     1.000     0.706        24
+       PommelHorse      0.952     0.909     0.930        22
+           PullUps      0.611     0.688     0.647        16
+             Punch      0.923     0.960     0.941        25
+           PushUps      0.733     0.688     0.710        16
+RockClimbingIndoor      0.909     0.455     0.606        22
+      RopeClimbing      0.743     0.897     0.812        29
+            Rowing      0.895     0.810     0.850        21
+         SalsaSpin      0.667     0.087     0.154        23
+     SkateBoarding      0.586     0.850     0.694        20
+            Skiing      0.643     0.857     0.735        21
+            Skijet      1.000     0.875     0.933        16
+    SoccerJuggling      0.611     0.458     0.524        24
+             Swing      0.800     0.667     0.727        24
+            TaiChi      0.833     0.312     0.455        16
+       TennisSwing      0.870     0.741     0.800        27
+       ThrowDiscus      0.824     0.636     0.718        22
+ TrampolineJumping      0.786     0.579     0.667        19
+ VolleyballSpiking      0.704     1.000     0.826        19
+    WalkingWithDog      0.577     0.682     0.625        22
+              YoYo      0.857     0.316     0.462        19
+
+          accuracy                          0.739      1081
+         macro avg      0.753     0.729     0.716      1081
+      weighted avg      0.757     0.739     0.723      1081
+
+Most confused (true -> predicted):
+    8  PizzaTossing -> Mixing
+    7  TaiChi -> GolfSwing
+    7  Biking -> WalkingWithDog
+    6  JumpingJack -> PullUps
+    5  TrampolineJumping -> PoleVault
+    5  ThrowDiscus -> Mixing
+    5  SalsaSpin -> PizzaTossing
+    5  SalsaSpin -> HulaHoop
+    5  Nunchucks -> PlayingViolin
+    5  JumpRope -> HulaHoop
+[test_tta] 6 view(s) | accuracy 74.93% | loss 1.0302 | n=1081
+                    precision    recall  f1-score   support
+
+     BaseballPitch      0.947     0.900     0.923        20
+        Basketball      0.400     0.300     0.343        20
+        BenchPress      0.963     1.000     0.981        26
+            Biking      0.688     0.759     0.721        29
+         Billiards      1.000     0.833     0.909        24
+      BreastStroke      0.762     1.000     0.865        16
+      CleanAndJerk      0.750     1.000     0.857        21
+            Diving      1.000     0.769     0.870        26
+          Drumming      0.923     0.889     0.906        27
+           Fencing      0.655     1.000     0.792        19
+         GolfSwing      0.667     1.000     0.800        26
+          HighJump      0.857     0.571     0.686        21
+         HorseRace      0.833     1.000     0.909        20
+       HorseRiding      0.700     0.933     0.800        30
+          HulaHoop      0.520     0.619     0.565        21
+      JavelinThrow      0.519     0.700     0.596        20
+     JugglingBalls      0.737     0.737     0.737        19
+          JumpRope      0.636     0.292     0.400        24
+       JumpingJack      1.000     0.389     0.560        18
+          Kayaking      0.906     0.967     0.935        30
+            Lunges      0.375     0.143     0.207        21
+    MilitaryParade      0.941     0.889     0.914        18
+            Mixing      0.675     1.000     0.806        27
+         Nunchucks      0.667     0.421     0.516        19
+      PizzaTossing      0.231     0.353     0.279        17
+     PlayingGuitar      1.000     0.962     0.980        26
+      PlayingPiano      0.889     1.000     0.941        16
+      PlayingTabla      1.000     0.882     0.938        17
+     PlayingViolin      0.636     0.875     0.737        16
+         PoleVault      0.558     1.000     0.716        24
+       PommelHorse      1.000     0.909     0.952        22
+           PullUps      0.625     0.625     0.625        16
+             Punch      0.923     0.960     0.941        25
+           PushUps      0.733     0.688     0.710        16
+RockClimbingIndoor      0.818     0.409     0.545        22
+      RopeClimbing      0.771     0.931     0.844        29
+            Rowing      0.857     0.857     0.857        21
+         SalsaSpin      1.000     0.087     0.160        23
+     SkateBoarding      0.607     0.850     0.708        20
+            Skiing      0.679     0.905     0.776        21
+            Skijet      1.000     0.812     0.897        16
+    SoccerJuggling      0.652     0.625     0.638        24
+             Swing      0.810     0.708     0.756        24
+            TaiChi      0.833     0.312     0.455        16
+       TennisSwing      0.909     0.741     0.816        27
+       ThrowDiscus      0.762     0.727     0.744        22
+ TrampolineJumping      0.846     0.579     0.688        19
+ VolleyballSpiking      0.704     1.000     0.826        19
+    WalkingWithDog      0.600     0.682     0.638        22
+              YoYo      0.857     0.316     0.462        19
+
+          accuracy                          0.749      1081
+         macro avg      0.768     0.738     0.725      1081
+      weighted avg      0.773     0.749     0.733      1081
+
+Most confused (true -> predicted):
+    7  TaiChi -> GolfSwing
+    7  SalsaSpin -> PizzaTossing
+    7  Biking -> WalkingWithDog
+    6  JumpingJack -> PullUps
+    5  TrampolineJumping -> PoleVault
+    5  SalsaSpin -> HulaHoop
+    5  PizzaTossing -> Mixing
+    5  Nunchucks -> PlayingViolin
+    5  JumpRope -> HulaHoop
+    5  JumpRope -> GolfSwing

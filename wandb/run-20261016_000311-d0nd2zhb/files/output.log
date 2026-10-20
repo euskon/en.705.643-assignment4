@@ -1,0 +1,159 @@
+                                                                 
+Epoch 1/20 | lr 3.00e-04 | train loss 2.3247 acc 58.83%
+Epoch 2/20 | lr 2.98e-04 | train loss 0.8959 acc 96.33%
+Epoch 3/20 | lr 2.92e-04 | train loss 0.7798 acc 99.18%
+Epoch 4/20 | lr 2.82e-04 | train loss 0.7484 acc 99.68%
+Epoch 5/20 | lr 2.68e-04 | train loss 0.7323 acc 99.86%
+Epoch 6/20 | lr 2.52e-04 | train loss 0.7265 acc 99.91%
+Epoch 7/20 | lr 2.32e-04 | train loss 0.7230 acc 99.87%
+Epoch 8/20 | lr 2.10e-04 | train loss 0.7191 acc 99.96%
+Epoch 9/20 | lr 1.87e-04 | train loss 0.7181 acc 99.95%
+Epoch 10/20 | lr 1.62e-04 | train loss 0.7165 acc 99.93%
+Epoch 11/20 | lr 1.38e-04 | train loss 0.7152 acc 99.98%
+Epoch 12/20 | lr 1.13e-04 | train loss 0.7142 acc 99.96%
+Epoch 13/20 | lr 8.97e-05 | train loss 0.7124 acc 100.00%
+Epoch 14/20 | lr 6.80e-05 | train loss 0.7152 acc 99.89%
+Epoch 15/20 | lr 4.84e-05 | train loss 0.7111 acc 100.00%
+Epoch 16/20 | lr 3.16e-05 | train loss 0.7113 acc 99.98%
+Epoch 17/20 | lr 1.81e-05 | train loss 0.7115 acc 99.96%
+Epoch 18/20 | lr 8.13e-06 | train loss 0.7103 acc 100.00%
+Epoch 19/20 | lr 2.05e-06 | train loss 0.7107 acc 99.98%
+Epoch 20/20 | lr 0.00e+00 | train loss 0.7102 acc 100.00%
+[test] 1 view(s) | accuracy 93.80% | loss 0.3691 | n=1081
+                    precision    recall  f1-score   support
+
+     BaseballPitch      1.000     1.000     1.000        20
+        Basketball      0.875     0.700     0.778        20
+        BenchPress      1.000     1.000     1.000        26
+            Biking      1.000     1.000     1.000        29
+         Billiards      1.000     1.000     1.000        24
+      BreastStroke      1.000     1.000     1.000        16
+      CleanAndJerk      1.000     1.000     1.000        21
+            Diving      1.000     0.962     0.980        26
+          Drumming      1.000     1.000     1.000        27
+           Fencing      1.000     1.000     1.000        19
+         GolfSwing      1.000     1.000     1.000        26
+          HighJump      0.941     0.762     0.842        21
+         HorseRace      1.000     1.000     1.000        20
+       HorseRiding      1.000     1.000     1.000        30
+          HulaHoop      1.000     0.810     0.895        21
+      JavelinThrow      0.833     1.000     0.909        20
+     JugglingBalls      1.000     0.842     0.914        19
+          JumpRope      0.952     0.833     0.889        24
+       JumpingJack      1.000     0.444     0.615        18
+          Kayaking      1.000     1.000     1.000        30
+            Lunges      0.615     0.381     0.471        21
+    MilitaryParade      1.000     1.000     1.000        18
+            Mixing      1.000     1.000     1.000        27
+         Nunchucks      0.577     0.789     0.667        19
+      PizzaTossing      0.824     0.824     0.824        17
+     PlayingGuitar      1.000     1.000     1.000        26
+      PlayingPiano      1.000     1.000     1.000        16
+      PlayingTabla      1.000     1.000     1.000        17
+     PlayingViolin      1.000     1.000     1.000        16
+         PoleVault      0.800     1.000     0.889        24
+       PommelHorse      1.000     1.000     1.000        22
+           PullUps      0.882     0.938     0.909        16
+             Punch      0.857     0.960     0.906        25
+           PushUps      1.000     1.000     1.000        16
+RockClimbingIndoor      0.955     0.955     0.955        22
+      RopeClimbing      0.967     1.000     0.983        29
+            Rowing      1.000     1.000     1.000        21
+         SalsaSpin      1.000     0.826     0.905        23
+     SkateBoarding      1.000     0.950     0.974        20
+            Skiing      1.000     1.000     1.000        21
+            Skijet      1.000     1.000     1.000        16
+    SoccerJuggling      0.750     1.000     0.857        24
+             Swing      1.000     1.000     1.000        24
+            TaiChi      0.941     1.000     0.970        16
+       TennisSwing      0.794     1.000     0.885        27
+       ThrowDiscus      0.941     0.727     0.821        22
+ TrampolineJumping      1.000     1.000     1.000        19
+ VolleyballSpiking      0.792     1.000     0.884        19
+    WalkingWithDog      1.000     1.000     1.000        22
+              YoYo      0.826     1.000     0.905        19
+
+          accuracy                          0.938      1081
+         macro avg      0.942     0.934     0.932      1081
+      weighted avg      0.944     0.938     0.936      1081
+
+Most confused (true -> predicted):
+    7  Lunges -> TennisSwing
+    5  Lunges -> SoccerJuggling
+    5  HighJump -> PoleVault
+    5  Basketball -> VolleyballSpiking
+    4  Nunchucks -> YoYo
+    4  JumpingJack -> Punch
+    4  JumpingJack -> Lunges
+    4  JumpRope -> JavelinThrow
+    4  HulaHoop -> Nunchucks
+    3  ThrowDiscus -> Nunchucks
+[test_tta] 6 view(s) | accuracy 93.71% | loss 0.3594 | n=1081
+                    precision    recall  f1-score   support
+
+     BaseballPitch      1.000     1.000     1.000        20
+        Basketball      0.933     0.700     0.800        20
+        BenchPress      1.000     1.000     1.000        26
+            Biking      1.000     1.000     1.000        29
+         Billiards      1.000     1.000     1.000        24
+      BreastStroke      1.000     1.000     1.000        16
+      CleanAndJerk      1.000     1.000     1.000        21
+            Diving      1.000     0.962     0.980        26
+          Drumming      1.000     1.000     1.000        27
+           Fencing      1.000     1.000     1.000        19
+         GolfSwing      1.000     1.000     1.000        26
+          HighJump      0.929     0.619     0.743        21
+         HorseRace      1.000     1.000     1.000        20
+       HorseRiding      1.000     1.000     1.000        30
+          HulaHoop      1.000     0.810     0.895        21
+      JavelinThrow      0.833     1.000     0.909        20
+     JugglingBalls      1.000     0.842     0.914        19
+          JumpRope      0.909     0.833     0.870        24
+       JumpingJack      0.889     0.444     0.593        18
+          Kayaking      1.000     1.000     1.000        30
+            Lunges      0.667     0.381     0.485        21
+    MilitaryParade      1.000     1.000     1.000        18
+            Mixing      1.000     1.000     1.000        27
+         Nunchucks      0.560     0.737     0.636        19
+      PizzaTossing      0.824     0.824     0.824        17
+     PlayingGuitar      1.000     1.000     1.000        26
+      PlayingPiano      1.000     1.000     1.000        16
+      PlayingTabla      1.000     1.000     1.000        17
+     PlayingViolin      1.000     1.000     1.000        16
+         PoleVault      0.727     1.000     0.842        24
+       PommelHorse      1.000     1.000     1.000        22
+           PullUps      0.800     1.000     0.889        16
+             Punch      0.923     0.960     0.941        25
+           PushUps      1.000     0.938     0.968        16
+RockClimbingIndoor      0.952     0.909     0.930        22
+      RopeClimbing      1.000     1.000     1.000        29
+            Rowing      1.000     1.000     1.000        21
+         SalsaSpin      1.000     0.870     0.930        23
+     SkateBoarding      0.952     1.000     0.976        20
+            Skiing      1.000     1.000     1.000        21
+            Skijet      1.000     1.000     1.000        16
+    SoccerJuggling      0.750     1.000     0.857        24
+             Swing      1.000     1.000     1.000        24
+            TaiChi      1.000     1.000     1.000        16
+       TennisSwing      0.818     1.000     0.900        27
+       ThrowDiscus      0.947     0.818     0.878        22
+ TrampolineJumping      1.000     1.000     1.000        19
+ VolleyballSpiking      0.826     1.000     0.905        19
+    WalkingWithDog      1.000     1.000     1.000        22
+              YoYo      0.792     1.000     0.884        19
+
+          accuracy                          0.937      1081
+         macro avg      0.941     0.933     0.931      1081
+      weighted avg      0.943     0.937     0.935      1081
+
+Most confused (true -> predicted):
+    8  HighJump -> PoleVault
+    6  Lunges -> TennisSwing
+    5  Nunchucks -> YoYo
+    5  Lunges -> SoccerJuggling
+    4  JumpingJack -> Lunges
+    4  JumpRope -> JavelinThrow
+    4  HulaHoop -> Nunchucks
+    4  Basketball -> VolleyballSpiking
+    3  SalsaSpin -> PizzaTossing
+    3  PizzaTossing -> SoccerJuggling

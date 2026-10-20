@@ -1,0 +1,11 @@
+# Install PyTorch with CUDA from https://download.pytorch.org/whl/cu126 (see environment.yaml)
+torch>=2.6
+torchvision>=0.21
+opencv-python
+scikit-learn
+tqdm
+numpy
+Pillow
+wandb
+pylint
+pytest

@@ -1,0 +1,58 @@
+[r3d18-inflated/val_tta] 6 view(s) | accuracy 81.56% | loss 0.8748 | n=808
+
+                    precision    recall  f1-score   support
+
+     BaseballPitch      1.000     0.905     0.950        21
+        Basketball      0.889     0.889     0.889        18
+        BenchPress      0.808     1.000     0.894        21
+            Biking      0.750     0.400     0.522        15
+         Billiards      1.000     0.944     0.971        18
+      BreastStroke      1.000     1.000     1.000        12
+      CleanAndJerk      1.000     0.714     0.833        14
+            Diving      0.905     1.000     0.950        19
+          Drumming      1.000     0.947     0.973        19
+           Fencing      0.750     0.923     0.828        13
+         GolfSwing      0.485     0.762     0.593        21
+          HighJump      0.786     0.786     0.786        14
+         HorseRace      0.905     1.000     0.950        19
+       HorseRiding      0.927     0.974     0.950        39
+          HulaHoop      0.714     0.357     0.476        14
+      JavelinThrow      0.800     0.533     0.640        15
+     JugglingBalls      0.857     0.706     0.774        17
+          JumpRope      0.727     0.941     0.821        17
+       JumpingJack      0.733     0.733     0.733        15
+          Kayaking      0.917     0.786     0.846        14
+            Lunges      0.800     0.667     0.727        12
+    MilitaryParade      1.000     0.941     0.970        17
+            Mixing      1.000     1.000     1.000        16
+         Nunchucks      0.333     0.167     0.222        18
+      PizzaTossing      0.667     0.400     0.500        15
+     PlayingGuitar      1.000     0.944     0.971        18
+      PlayingPiano      1.000     0.917     0.957        12
+      PlayingTabla      0.933     1.000     0.966        14
+     PlayingViolin      0.923     1.000     0.960        12
+         PoleVault      0.821     1.000     0.902        23
+       PommelHorse      1.000     0.917     0.957        12
+           PullUps      0.636     0.583     0.609        12
+             Punch      0.783     1.000     0.878        18
+           PushUps      0.571     0.333     0.421        12
+RockClimbingIndoor      1.000     0.857     0.923        21
+      RopeClimbing      0.538     0.538     0.538        13
+            Rowing      0.947     1.000     0.973        18
+         SalsaSpin      1.000     1.000     1.000        15
+     SkateBoarding      0.722     0.929     0.812        14
+            Skiing      0.696     0.842     0.762        19
+            Skijet      0.917     0.917     0.917        12
+    SoccerJuggling      0.364     0.222     0.276        18
+             Swing      0.818     0.692     0.750        13
+            TaiChi      0.571     0.667     0.615        12
+       TennisSwing      0.826     1.000     0.905        19
+       ThrowDiscus      0.700     1.000     0.824        14
+ TrampolineJumping      0.923     1.000     0.960        12
+ VolleyballSpiking      0.923     1.000     0.960        12
+    WalkingWithDog      0.375     0.400     0.387        15
+              YoYo      0.737     0.933     0.824        15
+
+          accuracy                          0.816       808
+         macro avg      0.810     0.803     0.797       808
+      weighted avg      0.814     0.816     0.805       808

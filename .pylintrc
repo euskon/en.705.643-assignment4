@@ -1,0 +1,20 @@
+[MAIN]
+# src/ is the import root (same as pytest's pythonpath)
+init-hook='import sys; sys.path.insert(0, "src")'
+# cv2 is a compiled extension; let pylint introspect it
+extension-pkg-allow-list=cv2
+
+[TYPECHECK]
+# OpenCV 5's compiled module cannot be introspected statically
+generated-members=cv2.*
+
+[FORMAT]
+max-line-length=100
+
+[BASIC]
+# Conventional short names in ML code: x/y batches, h/w sizes, lr, p (parser), f (file), etc.
+good-names=i,j,k,n,t,x,y,h,w,p,f,lr,bs,ts,tr,fd,_
+
+[DESIGN]
+max-args=8
+max-locals=20

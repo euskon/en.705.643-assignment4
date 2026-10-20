@@ -1,0 +1,33 @@
+name: assignment4
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Base Python and package manager
+  - python=3.12
+  - pip
+
+  # PyTorch and related libraries via pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch>=2.6
+      - torchvision>=0.21
+      - opencv-python
+      - scikit-learn
+      - tqdm
+      - numpy
+      - Pillow
+
+      # Experiment tracking. wandb >= 0.27 requires click >= 8.2, so the click
+      # pin below makes pip pick wandb 0.26.x
+      - wandb
+
+      # Notebook linter (pynblint 0.1.6 pins typer 0.12, which breaks on click >= 8.2)
+      - pylint
+      - pytest
+      - pynblint
+      - click<8.2
+
+# After creating the env, run once (WSL/Linux only): importing torch before scipy
+# otherwise loads the older system libstdc++ and scipy (used by torchmetrics) fails:
+#   conda env config vars set -n assignment4 LD_LIBRARY_PATH=$CONDA_PREFIX/lib

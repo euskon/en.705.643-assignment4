@@ -1,0 +1,263 @@
+_wandb:
+    value:
+        cli_version: 0.26.1
+        e:
+            h1jtmb0vdvv9dhvss56g6c8w1n2zygxd:
+                args:
+                    - --mode
+                    - train
+                    - --frame_dir
+                    - data/UCF50_frames
+                    - --model_type
+                    - lrcn
+                    - --cnn_backbone
+                    - resnet50
+                    - --fr_per_vid
+                    - "16"
+                    - --batch_size
+                    - "8"
+                    - --n_epochs
+                    - "20"
+                    - --model_type
+                    - 3dcnn
+                    - --run_name
+                    - r3d18-inflated
+                    - --learning_rate
+                    - "1e-3"
+                    - --backbone_lr_mult
+                    - "0.3"
+                    - --n_epochs
+                    - "25"
+                    - --patience
+                    - "0"
+                codePath: assignment4/src/run.py
+                codePathLocal: src/run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.3"
+                disk:
+                    /:
+                        total: "269427478528"
+                        used: "112525860864"
+                email: theeuskon@gmail.com
+                executable: /home/euskon/miniconda3/envs/assignment4/bin/python
+                git:
+                    commit: 539318e80604cdb0652294f569d922151cbe2635
+                    remote: https://github.com/euskon/en.705.643.git
+                gpu: NVIDIA GeForce RTX 3080
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      memoryTotal: "10737418240"
+                      name: NVIDIA GeForce RTX 3080
+                      uuid: GPU-5d46d3df-f6b9-4927-4a4e-981a2384320d
+                host: 2022-desktop
+                memory:
+                    total: "20973506560"
+                os: Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+                program: /home/euskon/prj/en.705.643/assignment4/src/run.py
+                python: CPython 3.12.15
+                root: /home/euskon/prj/en.705.643/assignment4
+                startedAt: "2026-10-16T03:37:54.751487Z"
+                writerId: h1jtmb0vdvv9dhvss56g6c8w1n2zygxd
+        m:
+            - "1": epoch
+              "6":
+                - 3
+              "7": []
+            - "1": lr
+              "5": 1
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "2": train/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+            - "2": val/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.12.15
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 100
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+                - 100
+            "3":
+                - 2
+                - 7
+                - 13
+                - 16
+                - 62
+            "4": 3.12.15
+            "5": 0.26.1
+            "12": 0.26.1
+            "13": linux-x86_64
+        visualize:
+            test/confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: test confusion matrix
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: test/confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+            test_tta/confusion_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: test_tta confusion matrix
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: test_tta/confusion_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+backbone_lr_mult:
+    value: 0.3
+batch_size:
+    value: 8
+bidirectional:
+    value: true
+ckpt:
+    value: null
+cnn_backbone:
+    value: resnet50
+dropout:
+    value: 0.5
+fr_per_vid:
+    value: 16
+frame_dir:
+    value: data/UCF50_frames
+img_size:
+    value: 160
+label_smoothing:
+    value: 0.1
+learning_rate:
+    value: 0.001
+mode:
+    value: train
+model_type:
+    value: 3dcnn
+n_classes:
+    value: 50
+n_epochs:
+    value: 25
+n_test:
+    value: 1081
+n_train:
+    value: 4778
+n_val:
+    value: 808
+num_workers:
+    value: 6
+out_dir:
+    value: runs
+patience:
+    value: 0
+pretrained:
+    value: true
+rnn_hidden_size:
+    value: 512
+rnn_n_layers:
+    value: 1
+run_name:
+    value: r3d18-inflated
+seed:
+    value: 0
+split_meta:
+    value:
+        n_frames: 32
+        removed_duplicates:
+            BaseballPitch/v_BaseballPitch_g18_c03.avi: BaseballPitch/v_BaseballPitch_g18_c02.avi
+            Basketball/v_Basketball_g05_c03.avi: Basketball/v_Basketball_g01_c07.avi
+            Basketball/v_Basketball_g23_c01.avi: Basketball/v_Basketball_g03_c01.avi
+            Biking/v_Biking_g16_c05.avi: Biking/v_Biking_g12_c01.avi
+            Biking/v_Biking_g24_c01.avi: Biking/v_Biking_g16_c04.avi
+            Billiards/v_Billards_g02_c06.avi: Billiards/v_Billards_g02_c01.avi
+            Billiards/v_Billards_g02_c07.avi: Billiards/v_Billards_g02_c03.avi
+            PizzaTossing/v_PizzaTossing_g01_c04.avi: PizzaTossing/v_PizzaTossing_g01_c03.avi
+            TaiChi/v_TaiChi_g15_c04.avi: TaiChi/v_TaiChi_g15_c03.avi
+            TennisSwing/v_TennisSwing_g19_c01.avi: TennisSwing/v_TennisSwing_g09_c07.avi
+            TrampolineJumping/v_TrampolineJumping_g12_c05.avi: TrampolineJumping/v_TrampolineJumping_g08_c01.avi
+            WalkingWithDog/v_WalkingWithDog_g16_c03.avi: WalkingWithDog/v_WalkingWithDog_g04_c05.avi
+            WalkingWithDog/v_WalkingWithDog_g18_c04.avi: WalkingWithDog/v_WalkingWithDog_g16_c02.avi
+            WalkingWithDog/v_WalkingWithDog_g23_c03.avi: WalkingWithDog/v_WalkingWithDog_g19_c05.avi
+        seed: 0
+        test_groups:
+            - 5
+            - 11
+            - 12
+            - 20
+        undecodable: []
+        val_groups:
+            - 3
+            - 24
+            - 25
+temporal_pool:
+    value: mean
+test_clips:
+    value: 3
+test_hflip:
+    value: true
+wandb_mode:
+    value: online
+wandb_project:
+    value: ucf50-video-classification
+warmup_epochs:
+    value: 1
+weight_decay:
+    value: 0.01
